@@ -1,6 +1,3 @@
-<<<<<<< HEAD:style.css
-
-
 a:hover {
     color: rgb(255, 0, 200);
 }
@@ -30,35 +27,4 @@ li:nth-child(n+2) {
 }
 li:nth-child(odd) {
    color: darkmagenta;
-=======
-.hover:hover {
-    color: aqua;
-}
-.link:link {
-    background-color: rgb(0, 208, 255);
-}
-.visited:visited {
-    color: rgb(255, 208, 0);
-}
-.focus:focus {
-    color: rgb(255, 0, 144);
-}
-:not([href="#"]) {
-    color: rgb(0, 255, 98);
-}
-li:only-child {
-    font-size: 75px;
-}
-li:last-child {
-    font-size: 50px !important;
-}
-li:nth-child(3n) {
-    font-size: 35px !important;
-}
-li:nth-child(n+2) {
-    font-size: 20px
-}
-li:nth-child(odd) {
-    font-size: 10px;
->>>>>>> 4a930641300b4f38897ea74fdbff08b87474ea67:css/style.css
 }
