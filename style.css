@@ -1,30 +1,32 @@
-.hover:hover {
-    color: aqua;
+
+
+a:hover {
+    color: rgb(255, 0, 200);
 }
-.link:link {
-    background-color: rgb(0, 208, 255);
+a:link {
+    color: rgb(8, 0, 255);
 }
-.visited:visited {
-    color: rgb(255, 208, 0);
+a:visited {
+    background-color: rgba(255, 204, 0, 0.274);
 }
-.focus:focus {
-    color: rgb(255, 0, 144);
+a[href="#"]:focus {
+    color: rgb(0, 255, 213);
 }
-:not([href="#"]) {
-    color: rgb(0, 255, 98);
+a:not([href="#"]) {
+    background-color: rgba(255, 0, 0, 0.232);
 }
-li:only-child {
-    font-size: 75px;
+li:first-child {
+    color: rgb(255, 183, 0) !important;
 }
 li:last-child {
-    font-size: 50px !important;
+    color: blue !important;
 }
 li:nth-child(3n) {
-    font-size: 35px !important;
+    color: darkblue !important;
 }
 li:nth-child(n+2) {
-    font-size: 20px
+    color: darkcyan;
 }
 li:nth-child(odd) {
-    font-size: 10px;
+   color: darkmagenta;
 }
